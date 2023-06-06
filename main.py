@@ -23,7 +23,7 @@ while True:
     cv2.imshow("webcam", img)
 
     key = cv2.waitKey(1)
-    if key == 27:  # ASCII value for Escape key
+    if key == 27:
         break
 
 video.release()
