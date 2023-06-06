@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-lower = np.array([15, 150, 20])
-upper = np.array([35, 255, 255])
+lower = np.array([0, 150, 20])
+upper = np.array([180, 255, 255])
 
 video = cv2.VideoCapture(0)
 
